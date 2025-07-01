@@ -70,7 +70,7 @@ export const WorkoutPlanDisplay: React.FC<WorkoutPlanDisplayProps> = ({ plan }) 
   };
 
   return (
-    <div className="w-full space-y-6">
+    <div className="w-full min-h-screen overflow-scroll space-y-6">
       <Card>
         <CardHeader className="flex flex-col items-center justify-between space-y-4 pb-2">
           <img

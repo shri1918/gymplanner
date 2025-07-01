@@ -50,5 +50,10 @@
   "made_with_shri": "Made with Shri",
   "language_select_label": "Language",
   "language_english": "English",
-  "language_marathi": "Marathi"
+  "language_marathi": "Marathi",
+  "login_subtitle": "Sign in to access your personalized plans",
+  "login_button": "Login with Google",
+  "login_loading": "Logging in...",
+  "sign_in_with_google_button": "Sign in with Google",
+  "login_title": "Login"
 }

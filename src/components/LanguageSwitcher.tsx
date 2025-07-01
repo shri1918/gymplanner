@@ -20,7 +20,7 @@ export const LanguageSwitcher: React.FC = () => {
 
   return (
     <div className="flex items-center space-x-2">
-      <Label htmlFor="language-select">{t("language_select_label")}:</Label>
+      {/* <Label htmlFor="language-select">{t("language_select_label")}:</Label>
       <Select onValueChange={changeLanguage} defaultValue={i18n.language}>
         <SelectTrigger id="language-select" className="w-[120px]">
           <SelectValue placeholder={t("language_english")} />
@@ -29,7 +29,7 @@ export const LanguageSwitcher: React.FC = () => {
           <SelectItem value="en">{t("language_english")}</SelectItem>
           <SelectItem value="mr">{t("language_marathi")}</SelectItem>
         </SelectContent>
-      </Select>
+      </Select> */}
     </div>
   );
 };

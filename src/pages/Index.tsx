@@ -31,14 +31,15 @@ const Index = () => {
 
   return (
     <div
-      className="min-h-screen flex flex-col items-center justify-center relative p-4 sm:p-6 lg:p-8"
-      style={{
-        backgroundImage: `url('https://images.pexels.com/photos/45244/fire-match-flame-sulfur-45244.jpeg'), linear-gradient(to bottom right, #f9fafb, #e5e7eb)`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-      }}
+      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 p-4"
+      // style={{
+      //   backgroundImage: `url('https://images.pexels.com/photos/45244/fire-match-flame-sulfur-45244.jpeg'), linear-gradient(to bottom right, #f9fafb, #e5e7eb)`,
+      //   backgroundSize: 'cover',
+      //   backgroundPosition: 'center',
+      //   backgroundRepeat: 'no-repeat',
+      // }}
     >
+      <div className="absolute inset-0 bg-[url('/placeholder.svg?height=100&width=100')] opacity-5"></div>
       {/* Overlay for dark mode and readability */}
       <div className="absolute inset-0 bg-black/60 pointer-events-none z-0" />
       <div className="relative z-10 w-full h-full flex flex-col items-center justify-center">
@@ -54,7 +55,7 @@ const Index = () => {
           </p>
         </div>
 
-        <div className="w-full max-w-md sm:max-w-lg lg:max-w-4xl">
+        <div className="w-full max-w-md sm:max-w-lg lg:max-w-4xl ">
           {!plan ? (
             <UserInfoForm onSubmit={handleFormSubmit} isLoading={isLoading} />
           ) : (

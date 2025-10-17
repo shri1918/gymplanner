@@ -45,7 +45,7 @@ const LoginPage: React.FC = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 p-4">
       {/* Background Pattern */}
-      <div className=" inset-0 bg-[url('/placeholder.svg?height=100&width=100')] opacity-5"></div>
+      <div className="absolute inset-0 bg-[url('/placeholder.svg?height=100&width=100')] opacity-5"></div>
 
       <div className="relative z-10 w-full max-w-md">
         {/* Logo/Brand Section */}

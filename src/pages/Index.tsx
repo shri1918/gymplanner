@@ -73,8 +73,8 @@
 "use client"
 
 import { useState } from "react"
-import { UserInfoForm } from "@/components/user-info-form"
-import { WorkoutPlanDisplay, type Plan } from "@/components/workout-plan-display"
+import { UserInfoForm } from "@/components/UserInfoForm";
+import { WorkoutPlanDisplay, Plan } from "@/components/WorkoutPlanDisplay";
 import { generatePlan } from "@/services/aiService"
 import { toast } from "sonner"
 import { useTranslation } from "react-i18next"
